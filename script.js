@@ -27,10 +27,11 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "YIPIIII!! :3";
+  titleElement.innerHTML = 'YAYYY!! Check the link: <a href="https://lett.pages.dev/">https://lett.pages.dev/</a>';
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
+
 
 function resizeYesButton() {
   const computedStyle = window.getComputedStyle(yesButton);
